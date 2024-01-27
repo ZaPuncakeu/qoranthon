@@ -74,7 +74,7 @@ const useCore = () => {
     
 
     const processImage = async (imageBase64) => {
-        const apiKey = 'API_KEY'; // Replace with your Google Cloud Vision API key
+        const apiKey = 'YOUR_API_KEY'; // Replace with your Google Cloud Vision API key
         
         // Prepare API request
         const apiUrl = `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`;
